@@ -13,11 +13,13 @@ h1 {
 .btn-primary {
   background-color: violet;
   color: black;
+  border-color: violet;
 }
 
 .btn-primary:hover {
   background-color: black;
   color: violet;
+  border-color: black;
 }
 
 ul {
