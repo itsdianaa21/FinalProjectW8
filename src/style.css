@@ -14,10 +14,16 @@ h1 {
   background-color: violet;
   color: black;
   border-color: violet;
+  font-size: large;
 }
 
 .btn-primary:hover {
   background-color: black;
+  color: violet;
+  border-color: black;
+}
+
+.form-control {
   color: violet;
   border-color: black;
 }
