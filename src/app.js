@@ -130,6 +130,23 @@ function displayCelsiusTemperature(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
+function backgroundChange(weather) {
+  if (sky - cond == Rain) {
+    document.body.style.backgroundImage =
+      "url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cac950bd-8f59-4376-8597-52366358d12e/d9wvf1t-b8eec3f5-b88b-4b1f-8aac-36bc21e06a92.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvY2FjOTUwYmQtOGY1OS00Mzc2LTg1OTctNTIzNjYzNThkMTJlXC9kOXd2ZjF0LWI4ZWVjM2Y1LWI4OGItNGIxZi04YWFjLTM2YmMyMWUwNmE5Mi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.WYDWFRtXw1BslrbVksftWlGdI6xCc0wHMhKMMx-NEuM')";
+  } else if (weatherinfo == Clouds) {
+    document.body.style.backgroundImage = "url(cloud.gif)";
+  } else if (sky - cond == Clear) {
+    document.body.style.backgroundImage =
+      "url('https://image.freepik.com/free-photo/panorama-sky-sunrise-sunset-beautiful-view-dark-blue-clouds-lit-by-bright-orange-yellow-sun-clear-sky-beauty-power-nature-meteorology-climate-changing-concept_127089-8097.jpg')";
+  } else if (sky - cond == Haze) {
+    document.body.style.backgroundImage =
+      "url(https://www.pixelstalk.net/wp-content/uploads/2016/06/Dark-Woods-HD-Wallpaper.jpg)";
+  } else {
+    document.body.style.backgroundImage = "url(background.gif)";
+  }
+}
+
 let celsiusTemperature = null;
 
 let form = document.querySelector("#search-form");
