@@ -14,7 +14,8 @@ h1 {
   background-color: #ec6e4c;
   color: black;
   border-color: #ec6e4c;
-  font-size: large;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .btn-primary:hover {
