@@ -130,22 +130,6 @@ function displayCelsiusTemperature(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
-function backgroundChange(weather) {
-  if (weather === "Rain") {
-    document.body.style.backgroundImage =
-      "url('https://sukhbinder.files.wordpress.com/2012/10/wpid-rain.jpg')";
-  } else if (weather === "Clouds") {
-    document.body.style.backgroundImage = "url(cloud.gif)";
-  } else if (weather === "Clear") {
-    document.body.style.backgroundImage = "url('https://i...')";
-  } else if (weather === "Haze") {
-    document.body.style.backgroundImage =
-      "url('https://live.staticflickr.com/7192/6814624698_2a45c14996_n.jpg')";
-  } else {
-    document.body.style.backgroundImage = "url(background.gif)";
-  }
-}
-
 let celsiusTemperature = null;
 
 let form = document.querySelector("#search-form");
