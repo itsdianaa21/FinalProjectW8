@@ -2,8 +2,8 @@ body {
   font-family: "Great Vibes", cursive;
   background: linear-gradient(
     179.4deg,
-    rgb(44, 50, 91) -16.9%,
-    rgb(86, 60, 94) 119.9%
+    rgb(58, 59, 64) -16.9%,
+    rgb(87, 87, 87) 119.9%
   );
 }
 
@@ -14,9 +14,6 @@ h1 {
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
-  display: block;
-  border: 3px solid black;
-  border-radius: 10px;
 }
 
 .btn-primary {
@@ -51,9 +48,6 @@ li {
   text-align: center;
   font-weight: 100;
   line-height: 19px;
-  display: block;
-  border: 3px solid black;
-  border-radius: 10px;
 }
 
 li:first-letter {
