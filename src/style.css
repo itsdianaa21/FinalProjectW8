@@ -2,17 +2,21 @@ body {
   font-family: "Great Vibes", cursive;
   background: linear-gradient(
     179.4deg,
-    rgb(12, 20, 69) -16.9%,
-    rgb(71, 30, 84) 119.9%
+    rgb(44, 50, 91) -16.9%,
+    rgb(86, 60, 94) 119.9%
   );
 }
 
 h1 {
   color: #ec6e4c;
   font-size: 24px;
+  text-align: center;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
+  display: block;
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 .btn-primary {
@@ -42,11 +46,14 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-
   color: black;
   font-size: 16px;
+  text-align: center;
   font-weight: 100;
   line-height: 19px;
+  display: block;
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 li:first-letter {
@@ -101,7 +108,8 @@ li:first-letter {
   margin-top: 20px;
   text-align: center;
   color: #000;
-  border: gray;
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 .weather-forecast-date {
