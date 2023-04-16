@@ -1,5 +1,10 @@
 body {
   font-family: "Great Vibes", cursive;
+  background: linear-gradient(
+    179.4deg,
+    rgb(12, 20, 69) -16.9%,
+    rgb(71, 30, 84) 119.9%
+  );
 }
 
 h1 {
@@ -92,9 +97,11 @@ li:first-letter {
 }
 
 .weather-forecast {
+  display: block;
   margin-top: 20px;
   text-align: center;
   color: #000;
+  border: gray;
 }
 
 .weather-forecast-date {
