@@ -102,7 +102,6 @@ li:first-letter {
   color: #000;
   border: 1px solid black;
   border-radius: 10px;
-  columns: line;
 }
 
 .weather-forecast-date {
