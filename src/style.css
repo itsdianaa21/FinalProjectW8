@@ -1,16 +1,10 @@
 body {
   font-family: "Great Vibes", cursive;
-  background: linear-gradient(
-    179.4deg,
-    rgb(58, 59, 64) -16.9%,
-    rgb(87, 87, 87) 119.9%
-  );
 }
 
 h1 {
   color: #ec6e4c;
   font-size: 24px;
-  text-align: center;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
@@ -45,7 +39,6 @@ li {
   padding: 0;
   color: black;
   font-size: 16px;
-  text-align: center;
   font-weight: 100;
   line-height: 19px;
 }
@@ -63,6 +56,11 @@ li:first-letter {
   padding: 20px;
   border: 1px solid black;
   border-radius: 5px;
+  background: linear-gradient(
+    179.4deg,
+    rgb(65, 65, 67) -16.9%,
+    rgb(132, 132, 132) 119.9%
+  );
 }
 
 .overview {
@@ -102,7 +100,7 @@ li:first-letter {
   margin-top: 20px;
   text-align: center;
   color: #000;
-  border: 3px solid black;
+  border: 1px solid black;
   border-radius: 10px;
 }
 
